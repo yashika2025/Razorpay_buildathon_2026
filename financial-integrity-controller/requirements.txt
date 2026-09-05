@@ -1,0 +1,15 @@
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+streamlit>=1.28.0
+plotly>=5.17.0
+networkx>=3.1
+pytest>=7.4.0
+
+# Optional -- only needed if you enable the LLM investigation assistant.
+# python-dotenv and openai cover Ollama, Groq, and Gemini (all speak the
+# same OpenAI-compatible API). anthropic is only needed if you set
+# LLM_PROVIDER = "anthropic" in src/config.py.
+python-dotenv>=1.0.0
+openai>=1.30.0
+anthropic>=0.34.0
